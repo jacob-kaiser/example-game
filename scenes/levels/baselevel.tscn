@@ -1,0 +1,27 @@
+[gd_scene format=3 uid="uid://mw6tlwcofdp"]
+
+[ext_resource type="Texture2D" uid="uid://bime68js482q3" path="res://assets/level/wallfloor.png" id="1_i40oy"]
+[ext_resource type="PackedScene" uid="uid://cspiwelrrc67c" path="res://scenes/player/player.tscn" id="2_gfgjh"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_j24qq"]
+texture = ExtResource("1_i40oy")
+texture_region_size = Vector2i(32, 32)
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_dif0a"]
+sources/0 = SubResource("TileSetAtlasSource_j24qq")
+
+[node name="baselevel" type="Node2D" unique_id=840639657]
+
+[node name="TileMapLayer" type="TileMapLayer" parent="." unique_id=791154209]
+tile_set = SubResource("TileSet_dif0a")
+
+[node name="player" parent="." unique_id=1757122295 instance=ExtResource("2_gfgjh")]
+position = Vector2(237, 152)

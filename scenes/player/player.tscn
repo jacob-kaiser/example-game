@@ -6,13 +6,17 @@
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_lvxji"]
 size = Vector2(32, 32)
 
-[node name="Node2D" type="Node2D" unique_id=1757122295]
+[node name="player" type="Node2D" unique_id=1757122295]
 
 [node name="CharacterBody2D" type="CharacterBody2D" parent="." unique_id=1948914765]
 script = ExtResource("1_dovo2")
+speed = null
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D" unique_id=1000463681]
 shape = SubResource("RectangleShape2D_lvxji")
 
 [node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D" unique_id=551147377]
+z_index = 10
 texture = ExtResource("2_gmlin")
+
+[node name="Camera2D" type="Camera2D" parent="CharacterBody2D" unique_id=1209475573]
