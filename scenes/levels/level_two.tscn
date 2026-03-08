@@ -1,0 +1,8 @@
+[gd_scene format=4 uid="uid://dougd08kbgrge"]
+
+[ext_resource type="PackedScene" uid="uid://mw6tlwcofdp" path="res://scenes/levels/baselevel.tscn" id="1_tn2yd"]
+
+[node name="baselevel" unique_id=840639657 instance=ExtResource("1_tn2yd")]
+
+[node name="TileMapLayer" parent="." index="0" unique_id=997075839]
+tile_map_data = PackedByteArray("AAAAAAAAAAABAAAAAAABAAAAAAACAAEAAAAAAAEAAAABAAAAAAD//wAAAAADAAEAAAAAAP//AAAAAAEAAAAAAAMAAAABAAAAAAAAAAIAAAABAAAAAAABAAEAAAACAAEAAAD//wEAAAADAAEAAAABAAIAAAACAAEAAAD//wIAAAADAAEAAAABAAMAAAACAAEAAAD//wMAAAADAAEAAAAAAAQAAAABAAEAAAA=")
