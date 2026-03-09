@@ -1,8 +1,6 @@
 # example-game
 small game to show how use aseprite godot and github
-<<<<<<< HEAD
 
-=======
 ```
 _|_     _|_     _|_     _|_     _|_     _|_     _|_     _|_     _|_     _|_     _|_     _|_     _|_     _|_     _|_
  |       |       |       |       |       |       |       |       |       |       |       |       |       |       |  
@@ -64,5 +62,3 @@ make scene
 
 instantiate in level
 
-pull request
->>>>>>> ec7ffa8d274e5332f9215da09c42c8d61f5dff01
